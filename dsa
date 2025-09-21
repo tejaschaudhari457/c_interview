@@ -1,0 +1,238 @@
+Full DSA Interview Questions (Detailed Q-Bank)
+🔹 1. Basics & Foundations
+
+Time & Space Complexity
+- Define Big O, Big Ω, Big Θ notations.
+- Derive time complexity of nested loops.
+- Compare iterative vs recursive solution complexity.
+- Why is O(log n) better than O(n)?
+- What is amortized analysis? (Example: dynamic array resizing).
+
+Recursion
+- Print Fibonacci series using recursion.
+- Convert recursion → iteration (example: factorial, tree traversal).
+- Tail recursion vs normal recursion. Why compilers optimize tail recursion?
+- Stack overflow risks in recursion (embedded systems relevance).
+
+Mathematics for DSA
+- Find all prime numbers ≤ N using Sieve of Eratosthenes.
+- Check if a number is Armstrong / Palindrome / Perfect number.
+- Fast power: implement a^b mod m.
+- Extended Euclidean Algorithm: find modular inverse.
+
+Bit Manipulation
+- Swap two numbers without temp.
+- Check if number is power of 2.
+- Find missing number in array of size n with XOR.
+- Count number of set bits (Brian Kernighan’s vs Lookup table).
+- Reverse bits of an integer.
+- Applications in embedded: bit-fields in registers, masks for CAN ID filtering.
+
+🔹 2. Arrays & Strings
+
+Array Basics
+- Insert element at position i.
+- Delete element from array.
+- Rotate array left/right by k.
+- Merge two sorted arrays.
+- Find second largest element.
+
+Prefix Sum / Sliding Window
+- Find subarray with sum = K.
+- Longest subarray with equal 0 and 1.
+- Find maximum average subarray of size K.
+- Applications: ECU signal processing (windowed averaging).
+
+Searching & Sorting
+- Implement binary search & variants:
+  * First occurrence
+  * Last occurrence
+  * Count frequency of element
+- Sorting:
+  * Quick sort pivot choice effect.
+  * Merge sort vs Heap sort.
+  * Counting sort for bounded integers.
+  * Which sort is stable and why does stability matter?
+
+Strings
+- Reverse a string in-place.
+- Check palindrome ignoring special characters.
+- Pattern search using KMP, Rabin-Karp, Z-algorithm.
+- Longest Palindromic Substring.
+- Minimum insertions to make string palindrome.
+- Rolling hash applications (plagiarism check, ECU firmware integrity).
+
+🔹 3. Linked Lists
+
+Singly / Doubly / Circular
+- Insert at head, tail, middle.
+- Delete from linked list.
+- Reverse list (iterative & recursive).
+- Detect and remove cycle.
+
+Handling
+- Why linked lists are preferred in memory-limited systems?
+- Difference between singly vs doubly linked list in driver queues.
+
+Applications
+- Implement stack using linked list.
+- Implement LRU cache with DLL + HashMap.
+
+🔹 4. Stack & Queue
+
+Stack
+- Push/Pop implementation.
+- Balanced parentheses check.
+- Evaluate postfix expression.
+- Convert infix → postfix.
+
+Queue
+- Implement queue using array and linked list.
+- Circular queue implementation.
+- Priority queue: insert, extract-max.
+
+Handling
+- What happens when queue overflows? (Ring buffer overrun in UART).
+- How to prevent blocking in queues (RTOS design)?
+
+Applications
+- Monotonic stack: Next Greater Element.
+- Monotonic queue: Sliding Window Maximum.
+- Automotive ECU: message buffering, task scheduling.
+
+🔹 5. Trees
+
+Binary Trees
+- Preorder, inorder, postorder traversals (recursive & iterative).
+- Level order traversal using queue.
+- Find height of binary tree.
+- Count number of nodes & leaf nodes.
+
+Binary Search Trees
+- Insert node.
+- Delete node (3 cases: leaf, one child, two children).
+- Search for key.
+
+Balanced Trees
+- AVL rotations (LL, RR, LR, RL).
+- Why AVL over Red-Black tree?
+- Use cases in memory management (balanced search for free blocks).
+
+Tries
+- Insert a word.
+- Search a word.
+- Delete a word.
+- Longest common prefix problem.
+
+Heaps
+- Heapify an array.
+- Insert into heap.
+- Delete from heap.
+- Heap sort implementation.
+- Applications: priority scheduling, Dijkstra’s algorithm.
+
+Segment Tree / Fenwick Tree
+- Range sum query.
+- Range min/max query.
+- Point update.
+- Applications: automotive sensor fusion (windowed sums).
+
+🔹 6. Graphs
+
+Graph Basics
+- Store graph (adjacency matrix vs list).
+- BFS traversal.
+- DFS traversal.
+
+Shortest Path
+- Dijkstra’s Algorithm.
+- Bellman-Ford (handles negative weights).
+- Floyd-Warshall (all pairs).
+
+Minimum Spanning Tree
+- Prim’s Algorithm.
+- Kruskal’s Algorithm (Union-Find).
+
+Topological Sorting
+- Kahn’s algorithm.
+- DFS-based approach.
+
+Advanced
+- Detect cycle in directed/undirected graph.
+- Bipartite check using BFS.
+- Kosaraju’s algorithm for strongly connected components.
+- Union-Find with path compression.
+- Max flow using Ford-Fulkerson.
+
+Applications
+- ECU dependencies in AUTOSAR (topological sort).
+- Shortest path in automotive navigation (Dijkstra).
+- Semiconductor interconnect optimization (MST).
+
+🔹 7. Advanced Algorithms
+
+Dynamic Programming
+- Fibonacci, Factorial.
+- Knapsack (0/1, Unbounded).
+- Longest Increasing Subsequence.
+- Longest Common Subsequence.
+- Matrix Chain Multiplication.
+- DP on grids: unique paths, min path sum.
+
+Bitmask DP
+- Travelling Salesman Problem.
+- Count subsets with given XOR.
+
+Backtracking
+- N-Queens.
+- Rat in a maze.
+- Sudoku solver.
+- Word search in matrix.
+
+Greedy
+- Interval scheduling.
+- Huffman coding.
+- Activity selection problem.
+
+Divide & Conquer
+- Binary search.
+- Quickselect (Kth smallest element).
+- Strassen’s Matrix Multiplication.
+
+🔹 8. Special Topics
+
+Hashing
+- Implement hashmap with chaining.
+- Implement hashmap with open addressing.
+- Detect duplicates in array using hashing.
+
+Geometry
+- Convex hull (Graham scan).
+- Line sweep algorithm.
+
+Number Theory
+- GCD using Euclidean algorithm.
+- Modular exponentiation.
+- Chinese Remainder Theorem.
+
+Graph Special
+- Eulerian path & circuit.
+- Hamiltonian cycle problem.
+
+🔹 9. System Design & Real-World (Automotive + Semiconductor focus)
+
+- Implement LRU cache (used in CPU cache).
+- Difference between LFU vs LRU.
+- Scheduling algorithms in RTOS:
+  * Round Robin
+  * Priority Scheduling
+  * Earliest Deadline First
+- Implement producer-consumer problem with queue.
+- Memory management:
+  * Buddy allocation.
+  * First-fit vs best-fit vs worst-fit.
+- Embedded applications:
+  * Ring buffer for CAN/UART communication.
+  * State machines for ECU software.
+  * Bit-fields in automotive registers.
+
