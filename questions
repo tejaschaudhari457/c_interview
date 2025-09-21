@@ -1,0 +1,221 @@
+Embedded Software Engineer – Coding & Interview Question Bank (200+ Questions)
+________________________________________
+1️⃣ C Programming (60 Questions)
+Easy (20)
+1.	Swap two numbers using pointers.
+2.	Reverse a string in-place.
+3.	Check if a number is even/odd using bitwise.
+4.	Count number of 1s in a byte.
+5.	Print Fibonacci series using recursion.
+6.	Find maximum & minimum in an array.
+7.	Sum of array elements using pointers.
+8.	Difference between #define and const.
+9.	Static vs global variable difference.
+10.	Pointer vs array differences.
+11.	Implement a function to reverse an array.
+12.	Pass array to function using pointers.
+13.	Dynamic memory allocation for 1D array.
+14.	Print ASCII values of a string.
+15.	Explain volatile keyword with example.
+16.	Difference between call by value and call by reference.
+17.	Find factorial using recursion.
+18.	Swap two numbers without third variable.
+19.	Bitwise AND, OR, XOR examples.
+20.	Convert lowercase to uppercase using bitwise.
+Medium (20)
+21.	Implement function pointer callback.
+22.	Reverse a linked list using recursion (C).
+23.	Check if a string is palindrome using pointers.
+24.	Pack multiple flags into a byte.
+25.	Extract 3rd byte from 32-bit integer.
+26.	Toggle nth bit of a number.
+27.	Memory leak example and fix.
+28.	Difference between malloc and calloc.
+29.	Inline function vs macro.
+30.	Create struct for CAN frame.
+31.	Explain struct padding with example.
+32.	Difference between union & struct.
+33.	Implement circular buffer using array.
+34.	Implement stack using linked list.
+35.	Find largest element in dynamic array.
+36.	Sort array using bubble sort.
+37.	Implement queue using two stacks.
+38.	Reverse a number using pointers.
+39.	Implement string copy function without library.
+40.	Explain undefined behavior examples in C.
+Hard (20)
+41.	Implement multi-dimensional dynamic array allocation.
+42.	Convert infix to postfix using stack.
+43.	Evaluate postfix expression.
+44.	Count number of set bits in integer (optimized).
+45.	Swap two numbers without arithmetic operator.
+46.	Implement memory-efficient linked list.
+47.	Implement function to detect integer overflow.
+48.	Implement bit-field struct for hardware register.
+49.	Convert big-endian to little-endian.
+50.	Write recursive function for Tower of Hanoi.
+51.	Implement calloc manually using malloc.
+52.	Implement merge sort for integer array.
+53.	Implement quick sort in-place.
+54.	Reverse words in a sentence in-place.
+55.	Find nth Fibonacci number using DP.
+56.	Find missing number in 1 to N array.
+57.	Rotate array by N positions (in-place).
+58.	Detect cycle in linked list.
+59.	Implement XOR linked list.
+60.	Difference between volatile and const volatile in embedded.
+________________________________________
+2️⃣ Data Structures (50 Questions)
+Easy (15)
+61.	Implement stack using array.
+62.	Implement queue using array.
+63.	Linked list insertion at head/tail.
+64.	Linked list deletion at head/tail.
+65.	Search element in array (linear search).
+66.	Binary search in sorted array.
+67.	Count elements in linked list.
+68.	Check if linked list is palindrome.
+69.	Find middle element in linked list.
+70.	Implement circular queue using array.
+71.	Implement push and pop in stack using linked list.
+72.	Reverse a stack using recursion.
+73.	Check balanced parentheses using stack.
+74.	Find max/min in binary tree.
+75.	Implement tree traversal (inorder, preorder, postorder).
+Medium (20)
+76.	Merge two sorted linked lists.
+77.	Detect loop in linked list.
+78.	Flatten a binary tree to linked list.
+79.	Implement BFS in graph.
+80.	Implement DFS in graph.
+81.	Detect cycle in directed graph.
+82.	Find height of binary tree.
+83.	Find lowest common ancestor in BST.
+84.	Implement priority queue using heap.
+85.	Find kth largest element in array.
+86.	Sliding window maximum.
+87.	Subarray with given sum.
+88.	Count duplicates in array.
+89.	Move all zeros to end of array.
+90.	Reverse first k elements in queue.
+91.	Search in rotated sorted array.
+92.	Merge two sorted arrays without extra space.
+93.	Find all permutations of a string.
+94.	Implement hash map (simple version).
+95.	Implement LRU cache.
+Hard (15)
+96.	Convert binary tree to doubly linked list.
+97.	Maximum sum path in binary tree.
+98.	Word search in 2D matrix.
+99.	Minimum spanning tree (Prim/Kruskal).
+100.	Implement graph using adjacency list.
+101.	Detect negative cycle in graph (Bellman-Ford).
+102.	Find shortest path in weighted graph (Dijkstra).
+103.	Median of two sorted arrays.
+104.	Kth smallest element in BST.
+105.	Serialize/deserialize binary tree.
+106.	Implement Trie for dictionary.
+107.	Autocomplete using Trie.
+108.	Subset sum problem using DP.
+109.	Knapsack problem.
+110.	Robot movement in grid (DP).
+________________________________________
+3️⃣ Embedded & MCU Programming (50 Questions)
+Easy (10)
+111.	Toggle LED using GPIO register.
+112.	Configure timer interrupt.
+113.	Difference between polling and interrupt.
+114.	Volatile keyword in embedded context.
+115.	Difference between MCU and MPU.
+116.	Read push button status using GPIO.
+117.	Explain debounce in embedded.
+118.	Explain watchdog timer.
+119.	Explain memory-mapped I/O.
+120.	Configure system clock of MCU.
+Medium (25)
+121.	Implement UART send/receive function.
+122.	Parse CAN 8-byte frame.
+123.	Implement SPI transfer function.
+124.	Implement I2C read/write for sensor.
+125.	Configure PWM for motor speed control.
+126.	DMA transfer for ADC buffer.
+127.	State machine implementation for fan control.
+128.	Implement circular buffer for UART.
+129.	Implement software delay.
+130.	Explain NVIC priority in ARM Cortex.
+131.	Task synchronization using semaphore.
+132.	Implement producer-consumer in RTOS.
+133.	Priority inversion handling in RTOS.
+134.	RTOS timer usage.
+135.	Difference between task & ISR.
+136.	RTOS queue usage.
+137.	Explain FreeRTOS scheduler.
+138.	Read sensor value using ADC.
+139.	Control LED brightness using PWM.
+140.	Implement simple finite state machine.
+141.	Detect UART framing error.
+142.	Configure external interrupt.
+143.	Explain embedded memory types (Flash, SRAM, EEPROM).
+144.	Explain watchdog reset in embedded system.
+145.	Explain bootloader role.
+Hard (15)
+146.	Implement minimal bootloader routine.
+147.	Multi-channel ADC read using DMA.
+148.	CAN bus message filtering implementation.
+149.	Implement SPI multi-device communication.
+150.	Implement circular buffer with overwrite.
+151.	Implement UART DMA receive with interrupt.
+152.	Implement motor speed PID control.
+153.	RTOS task preemption demonstration.
+154.	Embedded circular queue with variable size.
+155.	Implement safety-critical watchdog handling.
+156.	Implement embedded logger to flash memory.
+157.	Power management in MCU (sleep modes).
+158.	Embedded real-time scheduling problem.
+159.	Parse UDS diagnostic request.
+160.	AUTOSAR software component initialization routine.
+________________________________________
+4️⃣ Bitwise & Low-Level (20 Questions)
+161.	Set, clear, toggle, check nth bit.
+162.	Pack multiple flags in a byte.
+163.	Extract bits from register.
+164.	Reverse bits in a byte.
+165.	Count number of set bits (optimized).
+166.	Check if number is power of 2 using bitwise.
+167.	Convert little-endian to big-endian.
+168.	Swap two numbers using XOR.
+169.	Create mask for specific bit range.
+170.	Clear lower nibble of a byte.
+171.	Toggle upper nibble of a byte.
+172.	Check if two integers have opposite signs.
+173.	Multiply by 2 using bitwise.
+174.	Divide by 2 using bitwise.
+175.	Compute parity of a number.
+176.	Bit rotation (left/right).
+177.	Extract sign bit from integer.
+178.	Merge two bytes into word.
+179.	Divide integer by 8 using shift.
+180.	Find first set bit position.
+________________________________________
+5️⃣ Automotive/Semiconductor Protocol & Domain (20 Questions)
+181.	Parse 8-byte CAN frame into fields.
+182.	Implement UDS diagnostic request-response.
+183.	Explain AUTOSAR layered architecture.
+184.	Implement watchdog reset.
+185.	Explain ISO 26262 safety standard.
+186.	Explain LIN frame format.
+187.	Implement OBD-II request.
+188.	Explain FlexRay timing.
+189.	Implement CAN message filtering.
+190.	Explain DMA usage in embedded system.
+191.	Configure SPI for multiple slaves.
+192.	Explain UART parity error handling.
+193.	Explain bootloader role in MCU.
+194.	Implement flash page write/read.
+195.	Implement motor control using PWM.
+196.	Implement ADC read with DMA.
+197.	Explain endianness in multi-byte communication.
+198.	Implement circular buffer for CAN messages.
+199.	Explain interrupt latency calculation.
+200.	Explain RTOS task preemption in automotive system.
+
