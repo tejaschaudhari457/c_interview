@@ -1,0 +1,53 @@
+Bitwise Operations in C - Interview Questions
+
+Basic Level Questions
+1. Difference between logical (&&, ||) and bitwise (&, |) operators.
+2. Check if a number is even or odd using bitwise (n & 1).
+3. Swap two numbers without using a temporary variable (XOR swap).
+4. Set, clear, and toggle a specific bit in C.
+5. Check if a given bit is set or not.
+
+Intermediate Level Questions
+6. Count the number of set bits (population count).
+7. Check if a number is a power of 2 using bitwise (n & (n-1)) == 0.
+8. Reverse the bits of an integer.
+9. Find the only non-repeated element in an array where every other element repeats twice.
+10. Rotate bits left and right.
+11. Check endianness of a machine using bitwise operations.
+12. Difference between signed right shift and unsigned right shift.
+
+Advanced Level Questions
+13. Find two non-repeating elements in an array where every other element repeats twice.
+14. Find missing number in a sequence using XOR.
+15. Implement a bit-field structure in C (e.g., CAN protocol flags, status registers).
+16. Pack and unpack multiple values into a single integer using bit fields/bit masking.
+17. Fast multiplication/division by powers of 2 using shift operators.
+18. Implement parity check (even/odd parity bit).
+19. Efficient way to compute absolute value using bit manipulation.
+20. Implement population count / Hamming weight without loops.
+21. Find the position of the rightmost set bit.
+22. Write a macro to extract high byte / low byte of a 16-bit number.
+23. Rearrange/pack sensor values into a CAN frame using bit masking.
+24. Detect overflow in addition/multiplication using bitwise checks.
+25. Implement software CRC (Cyclic Redundancy Check) using bitwise operations.
+
+Practical & Applied Bitwise Topics
+26. Register programming questions: set, clear, toggle specific bits.
+27. Bit-fields in C structs: advantages, disadvantages, compiler dependency.
+28. Optimizing memory with bit-packing (pack 8 flags into 1 byte).
+29. CAN/LIN/I2C/SPI frame parsing with bit masking.
+30. Implement checksum & CRC using bitwise operations.
+31. Performance-oriented bit hacks (modulo, fast min/max).
+
+Algorithmic Bitwise Challenges
+32. Find the element that appears once when every other element appears thrice.
+33. Subset generation using bitmasking.
+34. Dynamic programming with bitmask (Traveling Salesman Problem).
+35. Implement integer square root using bit manipulation.
+
+Trick & Conceptual Questions
+36. Why is x & (x-1) used in multiple bit tricks?
+37. Difference between arithmetic right shift and logical right shift.
+38. What happens if you left shift a signed integer beyond its size?
+39. Why do compilers warn about mixing signed and unsigned bit shifts?
+40. How do bitwise operations interact with volatile variables in embedded systems?
